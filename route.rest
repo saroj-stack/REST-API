@@ -1,0 +1,15 @@
+GET http://localhost:3000/project
+
+###
+GET http://localhost:3000/project/13
+
+
+###
+
+POST http://localhost:3000/project
+Content-Type: application/json
+
+{
+    "name":"Jackson",
+    "course":"Node JS"
+}
